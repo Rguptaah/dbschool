@@ -1,7 +1,7 @@
 <?php
 require_once('op_config.php');
-$con = mysqli_connect($host_name, $db_user, $db_password, $db_name)
-    or die("Unable to Connect, Check the Connection Parameter. " . mysqli_error($con));
+// $con = mysqli_connect($host_name, $db_user, $db_password, $db_name)
+//     or die("Unable to Connect, Check the Connection Parameter. " . mysqli_error($con));
 
 
 // === OFFERPLANT MASTER FUNTION FOR EVERY WHERE ==== //

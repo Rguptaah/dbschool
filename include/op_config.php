@@ -6,36 +6,36 @@ $CONFIG['today'] = date('Y-m-d'); // '2021-11-13';
 error_reporting(E_ERROR | E_PARSE);
 /*-------Some Basic Details (Global Variables) ---------*/
 
-$CONFIG['full_name'] = "BINE DIGITAL SCHOOL";
-$CONFIG['inst_name'] = "BINE";
-$CONFIG['school_code'] = "66830";
-$CONFIG['aff_no'] = "331082";
+$CONFIG['full_name'] = "DON BOSCO SCHOOL";
+$CONFIG['inst_name'] = "DBS";
+// $CONFIG['school_code'] = "66830";
+// $CONFIG['aff_no'] = "331082";
 $CONFIG['aff_to'] = "Central Board of Secondary Education";
-$CONFIG['inst_managed_by'] = "KANJARU MEMORIAL CHARITABLE AND SOCIAL WELFARE TRUST";
-$CONFIG['inst_address1'] = "Phulwaria-3 Barauni ";
-$CONFIG['inst_address2'] = "Chapra Bihar 851112 ";
-$CONFIG['inst_contact'] = "9431426600";
-$CONFIG['inst_email'] = "ask@offerplant.com";
+// $CONFIG['inst_managed_by'] = "KANJARU MEMORIAL CHARITABLE AND SOCIAL WELFARE TRUST";
+$CONFIG['inst_address1'] = "Ratan Parauli ";
+$CONFIG['inst_address2'] = "Siwan Bihar 841242 ";
+$CONFIG['inst_contact'] = "9939064253";
+$CONFIG['inst_email'] = "info@dbschool.co.in";
 $CONFIG['inst_logo'] = "images/logo.png";
 $CONFIG['white_logo'] = "images/logo.png";
 $CONFIG['banner'] = "images/banner.jpg";
-$CONFIG['inst_url'] = "www.stgeorgehighschoolbarauni.com";
-$CONFIG['inst_type'] = "Institute";
-$CONFIG['sender_id'] = "STGHSB"; // AIRTEL STGHSB
-$CONFIG['noreply_email'] = "noreply@sghs.morg.in";
-$CONFIG['auth_key'] = ""; //STOP MESSAGE
-$CONFIG['auth_key'] = "Dr040moY50ivbsob9DynFw"; //SAKSHI SMS http://202.65.131.176/
+$CONFIG['inst_url'] = "https://dbschool.co.in";
+$CONFIG['inst_type'] = "School";
+// $CONFIG['sender_id'] = "STGHSB"; // AIRTEL STGHSB
+$CONFIG['noreply_email'] = "noreply@dbschool.co.in";
+// $CONFIG['auth_key'] = ""; //STOP MESSAGE
+// $CONFIG['auth_key'] = "Dr040moY50ivbsob9DynFw"; //SAKSHI SMS http://202.65.131.176/
 /*---------Social Link ----------*/
 
-$CONFIG['facebook'] = 'https://facebook/OfferPlant';
-$CONFIG['twitter'] = 'https://twitter/OfferPlant';
-$CONFIG['linkedin'] = 'https://linkedin/company/OfferPlant';
-$CONFIG['youtube'] = 'https://youtube/OfferPlant';
-$CONFIG['pinterest'] = 'https://pinterest/OfferPlant';
-$CONFIG['instagram'] = 'https://instagram/OfferPlant';
+$CONFIG['facebook'] = 'https://facebook/';
+$CONFIG['twitter'] = 'https://twitter/';
+$CONFIG['linkedin'] = 'https://linkedin/';
+$CONFIG['youtube'] = 'https://youtube/';
+$CONFIG['pinterest'] = 'https://pinterest/';
+$CONFIG['instagram'] = 'https://instagram/';
 
 
-$CONFIG['app_name'] = 'Bine 2.0';
+// $CONFIG['app_name'] = 'Bine 2.0';
 $CONFIG['dev_company'] = "OfferPlant Technologies Private Limited";
 $CONFIG['dev_by'] = "OfferPlant";
 $CONFIG['dev_url'] = "https://offerplant.com";
@@ -46,11 +46,11 @@ $CONFIG['default_sms'] = 'send_sms';
 
 
 // LocalHost Configuration
-$CONFIG['host_name'] = 'localhost';
-$CONFIG['db_user'] = 'root';
-$CONFIG['db_password'] = '';
-$CONFIG['db_name'] = 'morg_bine'; // Default Database Name
-$CONFIG['base_url'] = 'https://bine..morg.in/';
+// $CONFIG['host_name'] = 'localhost';
+// $CONFIG['db_user'] = 'root';
+// $CONFIG['db_password'] = '';
+// $CONFIG['db_name'] = 'morg_bine'; // Default Database Name
+// $CONFIG['base_url'] = 'https://bine..morg.in/';
 
 /* Live Configuration
 $CONFIG['host_name'] ='localhost';

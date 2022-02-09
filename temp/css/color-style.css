@@ -3,13 +3,14 @@
     position: fixed;
     z-index: 9999;
     top: 135px;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     background: #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.style-switch .fa{
+.style-switch .fa {
     font-size: 20px;
 }
 
@@ -88,9 +89,11 @@
     height: 42px;
     border-radius: 2px;
 }
-.style-switch ul.styles li .color:hover{
+
+.style-switch ul.styles li .color:hover {
     opacity: .9;
 }
+
 .style-switch ul.styles li .amber {
     background: #FFC107;
 }
@@ -99,7 +102,7 @@
     background: #7e6df6;
 }
 
-.style-switch ul.styles li .blue{
+.style-switch ul.styles li .blue {
     background: #0059b1;
 }
 
@@ -162,16 +165,18 @@
 .style-switch ul.styles li .lime {
     background: #9dd100;
 }
+
 .style-switch ul.styles li .red {
     background: #F44336;
 }
 
-.style-switch .one-page-link{
-font-size: 18px;
+.style-switch .one-page-link {
+    font-size: 18px;
 
-padding: 10px 0;
-display: block;
+    padding: 10px 0;
+    display: block;
 }
+
 .style-switch.right .switch-button {
     position: absolute;
     top: 0;
@@ -184,9 +189,10 @@ display: block;
     text-align: center;
     font-size: 24px;
     color: #000;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
 .style-switch .switch-button:hover {
     cursor: pointer;
     text-decoration: none;
@@ -195,14 +201,16 @@ display: block;
 .style-switch p {
     color: #000;
 }
-.preset-title{
+
+.preset-title {
     margin: 8px 0 0 0;
 }
 
-.switch-btn{
+.switch-btn {
     margin-top: 10px;
     font-weight: 600;
 }
-.switch-btn li a:hover{
-  color: #000000;
+
+.switch-btn li a:hover {
+    color: #000000;
 }
